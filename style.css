@@ -1,0 +1,96 @@
+body {
+    background: pink;
+    box-sizing: border-box;
+}
+.card {
+    text-align: center;
+    background: white;
+    margin: auto;
+    height: 300px;
+    width: 250px;
+    padding: 20px;
+    padding-top: 180px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.number {
+    font-size: 100px;
+}
+
+.spades:before {
+    content: '\2660';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 80px;
+    color: #FF338A;
+}
+.spades:after {
+    content: '\2660';
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80px;
+    color: #FF338A;
+}
+.clubs:before {
+  content: '\2663';
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 80px;
+  color: #86FF33;
+}
+.clubs:after{
+    content: '\2663';
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80px;
+    color: #86FF33;
+}
+.hearts:before {
+    content: '\2665';
+    color: red;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 80px;
+}
+.hearts:after{
+    content: '\2665';
+    color: red;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80px;
+}
+.diams:before {
+    content: '\2666';
+    color: yellow;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 80px;
+}
+.diams:after{
+    content: '\2666';
+    color: yellow;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80px;
+}
+
+.btn {
+    position: absolute;
+    background: turquoise;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 60%;
+    border-color: blue;
+    
+}
